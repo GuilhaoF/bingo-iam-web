@@ -15,6 +15,9 @@ export default function Home() {
      <button className=' p-4  shadow-xl w-44 mt-2 rounded-lg border-solid border-2' onClick={() => route.push('/dashboard')}>
       Acessar
      </button>
+     <button className=' p-4  shadow-xl w-44 mt-2 rounded-lg border-solid border-2' onClick={() => route.push('/bingo')}>
+      Bingo IAM 2023
+     </button>
   </div>
   )
 }
