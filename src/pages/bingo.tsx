@@ -16,13 +16,14 @@ export default function BingoPage() {
   ];
 
   return (
-    <div className="flex items-center flex-col justify-center h-screen bg-[#bdc3c7]">
+    <div className="flex items-center flex-col justify-center   bg-[#bdc3c7]">
       <Image
         src={IamUnidos}
         alt="unidos-iam"
-        className="mb-4"
+        className="mb-4 mt-12"
         width={250}
-        height={300}
+        height={250}
+        style={{objectFit: "contain"}}
       />
 
       <div className="mb-4 text-center">
@@ -36,7 +37,7 @@ export default function BingoPage() {
         </h2>
       </div>
 
-      <div className="grid grid-cols-1 border-2 md:p-6 p-4 shadow-2xl bg-yellow-300 border-solid rounded-lg">
+      <div className="grid grid-cols-1 border-2 md:p-6 sm:m-6 p-4 shadow-2xl bg-yellow-300 border-solid rounded-lg">
         <h2 className="col-span-1 text-center font-extrabold">
           PREMIAÇÕES POR COLUNA
         </h2>
@@ -70,7 +71,7 @@ export default function BingoPage() {
       </div>
 
       {/* Contato dos organizadores */}
-      <div className="flex gap-3 mt-8">
+      <div className="flex gap-3 mt-4">
         <a
           href="https://api.whatsapp.com/send?phone=5599984221692"
           className="flex items-center p-1"
